@@ -1,0 +1,67 @@
+{
+  "uuid": "2cafb539-c32c-4fc1-8d7a-83fd93ab9e57-tr-0-1003",
+  "historyId": "Prime.UnitTests.Services.PrimeService_IsPrimeShould.Prime_equal",
+  "fullName": "Prime.UnitTests.Services.PrimeService_IsPrimeShould.Prime_equal",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "Mycomputer"
+    },
+    {
+      "name": "testClass",
+      "value": "Prime.UnitTests.Services.PrimeService_IsPrimeShould"
+    },
+    {
+      "name": "testMethod",
+      "value": "Prime_equal"
+    },
+    {
+      "name": "package",
+      "value": "Prime.UnitTests.Services.PrimeService_IsPrimeShould"
+    }
+  ],
+  "links": [],
+  "name": "Prime_equal",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  2 so bang nhau\n  Expected: True\n  But was:  False\n",
+    "trace": "   at Prime.UnitTests.Services.PrimeService_IsPrimeShould.Prime_equal() in /home/longlc3/gitlab/QuickApp_env/unit-testing-using-nunit/PrimeService.Tests/PrimeService.IsPrimeShould.cs:line 41\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Prime_equal",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  2 so bang nhau\n  Expected: True\n  But was:  False\n",
+        "trace": "   at Prime.UnitTests.Services.PrimeService_IsPrimeShould.Prime_equal() in /home/longlc3/gitlab/QuickApp_env/unit-testing-using-nunit/PrimeService.Tests/PrimeService.IsPrimeShould.cs:line 41\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "96569abf4b6a47039436bc6578c83aa1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1626878943512,
+      "stop": 1626878943514
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1626878943512,
+  "stop": 1626878943514
+}

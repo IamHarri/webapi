@@ -1,0 +1,14 @@
+version: "3.3"
+services: 
+  build_webapi:  
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: webapi:v1
+    container_name: webapi
+    # restart: always
+    environment:
+      - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT}
+      - ASPNETCORE_URLS=${ASPNETCORE_URLS}
+    ports:
+      - '8888:80'  

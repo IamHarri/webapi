@@ -1,0 +1,67 @@
+{
+  "uuid": "8177cb74-0deb-4129-b8b8-1b86c320aa8c-tr-0-1001",
+  "historyId": "Prime.UnitTests.Services.PrimeService_IsPrimeShould.odd_even",
+  "fullName": "Prime.UnitTests.Services.PrimeService_IsPrimeShould.odd_even",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "Mycomputer"
+    },
+    {
+      "name": "testClass",
+      "value": "Prime.UnitTests.Services.PrimeService_IsPrimeShould"
+    },
+    {
+      "name": "testMethod",
+      "value": "odd_even"
+    },
+    {
+      "name": "package",
+      "value": "Prime.UnitTests.Services.PrimeService_IsPrimeShould"
+    }
+  ],
+  "links": [],
+  "name": "odd_even",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  even number\n  Expected: True\n  But was:  False\n",
+    "trace": "   at Prime.UnitTests.Services.PrimeService_IsPrimeShould.odd_even() in /home/longlc3/gitlab/QuickApp_env/unit-testing-using-nunit/PrimeService.Tests/PrimeService.IsPrimeShould.cs:line 26\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "odd_even",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  even number\n  Expected: True\n  But was:  False\n",
+        "trace": "   at Prime.UnitTests.Services.PrimeService_IsPrimeShould.odd_even() in /home/longlc3/gitlab/QuickApp_env/unit-testing-using-nunit/PrimeService.Tests/PrimeService.IsPrimeShould.cs:line 26\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d7a4973de42d4e93910f09b9e3777bd4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1626881239658,
+      "stop": 1626881239827
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1626881239655,
+  "stop": 1626881239844
+}

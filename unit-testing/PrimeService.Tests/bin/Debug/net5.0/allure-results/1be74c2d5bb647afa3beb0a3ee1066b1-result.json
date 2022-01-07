@@ -1,0 +1,67 @@
+{
+  "uuid": "581122fd-d12b-4f1b-aef3-04dc228d3303-tr-0-1004",
+  "historyId": "Prime.UnitTests.Services.PrimeService_IsPrimeShould.Prime_equal1",
+  "fullName": "Prime.UnitTests.Services.PrimeService_IsPrimeShould.Prime_equal1",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "Mycomputer"
+    },
+    {
+      "name": "testClass",
+      "value": "Prime.UnitTests.Services.PrimeService_IsPrimeShould"
+    },
+    {
+      "name": "testMethod",
+      "value": "Prime_equal1"
+    },
+    {
+      "name": "package",
+      "value": "Prime.UnitTests.Services.PrimeService_IsPrimeShould"
+    }
+  ],
+  "links": [],
+  "name": "Prime_equal1",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  2 so chia het cho 2\n  Expected: True\n  But was:  False\n",
+    "trace": "   at Prime.UnitTests.Services.PrimeService_IsPrimeShould.Prime_equal1() in /home/longlc3/gitlab/QuickApp_env/unit-testing-using-nunit/PrimeService.Tests/PrimeService.IsPrimeShould.cs:line 48\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Prime_equal1",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  2 so chia het cho 2\n  Expected: True\n  But was:  False\n",
+        "trace": "   at Prime.UnitTests.Services.PrimeService_IsPrimeShould.Prime_equal1() in /home/longlc3/gitlab/QuickApp_env/unit-testing-using-nunit/PrimeService.Tests/PrimeService.IsPrimeShould.cs:line 48\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c673e10473684160a336fab96be2ead9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1626879103831,
+      "stop": 1626879103834
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1626879103831,
+  "stop": 1626879103834
+}

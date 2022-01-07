@@ -1,0 +1,28 @@
+{
+  "uuid": "d3a6ca41-d544-4218-84fd-5d2eda71126f-tc-0-1000",
+  "name": "Prime.UnitTests.Services.PrimeService_IsPrimeShould.Prime_equal",
+  "children": [
+    "b35ffd71-5f3f-4c62-89fc-6d90919cc5f5-tr-0-1002"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1627053208368,
+      "stop": 1627053208368
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1627053208368,
+  "stop": 1627053208370
+}

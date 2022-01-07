@@ -1,0 +1,64 @@
+{
+  "uuid": "eb03c73c-9668-4365-b9c7-4b421c290ff3-tr-0-1001",
+  "historyId": "Prime.UnitTests.Services.PrimeService_IsPrimeShould.Prime_equal",
+  "fullName": "Prime.UnitTests.Services.PrimeService_IsPrimeShould.Prime_equal",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "Mycomputer"
+    },
+    {
+      "name": "testClass",
+      "value": "Prime.UnitTests.Services.PrimeService_IsPrimeShould"
+    },
+    {
+      "name": "testMethod",
+      "value": "Prime_equal"
+    },
+    {
+      "name": "package",
+      "value": "Prime.UnitTests.Services.PrimeService_IsPrimeShould"
+    }
+  ],
+  "links": [],
+  "name": "Prime_equal",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Prime_equal"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Prime_equal",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "fbd67f040e5d451da34696c7b02f3e7b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1626879173375,
+      "stop": 1626879173403
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1626879173373,
+  "stop": 1626879173411
+}
