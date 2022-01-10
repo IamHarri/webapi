@@ -34,4 +34,5 @@ stages:
         dotnet test
         echo "this is mydemo"
         echo ":this is the second command"
+        echo "${data}"
     - script: echo "this is another command"
