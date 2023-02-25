@@ -5,6 +5,12 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  workflow_dispatch:
+    inputs:
+      flutter_version:
+        description: 'Framework version'
+        required: true
+        default: '2.5.3'
 env:
   # Setting an environment variable with the value of a configuration variable
   AUTHOR: "long"
